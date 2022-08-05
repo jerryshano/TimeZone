@@ -1,0 +1,10 @@
+###GET root path "/hello-utc"
+GET localhost:8080/hello-utc
+
+###POST root path"hello"
+POST localhost:8080/hello
+content-type:application/json
+
+{
+"zone":"Pacific/Honolulu"
+}
